@@ -1,9 +1,10 @@
-# etl_project_group_0
+# ETL_project_group_0
 
-## Contributors
+### Contributors
 1. Nadia Aldrich
 2. Shayet Makoshi
 
+# Most Popular Baby Names
 Source: https://www.ssa.gov/oact/babynames/background.html
 
 ##Extract:
