@@ -1,6 +1,6 @@
 # Curious about what to name your baby?
 
-<img src="Images/chunkybaby.jpg" alt="chunky" width="3000px" height="500px">
+<img src="Images/chunkybaby.jpg" alt="chunky" width="300px" height="450px">
 
 ## ETL_project_group_0
 
@@ -12,6 +12,7 @@ Background:
 
 ##Extract:
 Source: https://www.ssa.gov/oact/babynames/background.html
+
 ###Data formatted using:
 -Visual Sudio Code
 -pgAdmin
@@ -20,7 +21,9 @@ Source: https://www.ssa.gov/oact/babynames/background.html
 
 ##Transformation:
 - Converted raw data from a text file to a CSV file
-- Read CSV faile into jupyter notebook and created dataframes for each file.
+- Read CSV file into jupyter notebook and created dataframes for each file.
+- Dropped duplicates
+- Reanmed columns
 
 
 ###Data Requirements:
@@ -30,8 +33,8 @@ Source: https://www.ssa.gov/oact/babynames/background.html
 *c. Names spelled similarly are not combined (ex. "Caitlin, Caitlyn, Kaitlin, Kaitlyn, Kaitlynn, Katelyn, and Katelynn are considered separate names and each has its own rank.")*
 *d. For privacy reasons, names that appear fewer than 5 in a geographical area are not included in the data*
 
+##Load
 
-###Load
-Database
+<img src="Images/alaska.png" alt="alaska" width="300px" height="300px">
 
-Tables
+<img src="Images/national.png" alt="national" width="300px" height="300px">
