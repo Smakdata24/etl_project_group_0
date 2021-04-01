@@ -1,5 +1,8 @@
 # etl_project_group_0
 
+
+## Contributors
+
 Source: where we got it from
 
 ##Extract:
@@ -16,3 +19,6 @@ d. For privacy reasons, names that appear fewer than 5 in a geographical area ar
 
 
 ##Load
+Database
+
+Tables
