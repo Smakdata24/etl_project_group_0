@@ -1,6 +1,6 @@
 # Curious about what to name your baby?
-![Chunky Baby](Images/chunky%20baby)
 
+<img src="Images/chunkybaby.jpg" alt="chunky" width="3000px" height="500px">
 
 ## ETL_project_group_0
 
