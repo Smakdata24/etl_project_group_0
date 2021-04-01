@@ -1,4 +1,4 @@
-# Ever wanted to find out what to name your baby?
+# Curious about what to name your baby?
 ![Chunky Baby](Images/chunky Baby)
 
 
