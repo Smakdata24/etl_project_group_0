@@ -1,5 +1,5 @@
 # Most Popular Baby Names
-![](Images/chunky Baby)
+![Chunky Baby](Images/chunky Baby)
 
 
 ## ETL_project_group_0
@@ -7,6 +7,8 @@
 ### Contributors
 1. Nadia Aldrich
 2. Shayet Makoshi
+
+Background:
 
 ##Extract:
 Source: https://www.ssa.gov/oact/babynames/background.html
