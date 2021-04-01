@@ -30,8 +30,8 @@ But it wasn't until 1998 that an Actuary by the name of **_*Michael W. Shacklefo
 
 
 ## The loading of data...
-- Created a database using `pgAdmin` and created tables for **National Data** and **Alaska Data**
-- Created a connection from our Pandas library to our tables in `pgAdmin`
+- Created a database using `pgAdmin 4` and created tables for **National Data** and **Alaska Data**
+- Created a connection from our Pandas library to our tables in `pgAdmin 4`
 
 
 ## Voilà...
