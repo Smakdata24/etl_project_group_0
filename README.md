@@ -1,5 +1,5 @@
-# Most Popular Baby Names
-![Chunky Baby](Images/chunky Baby)
+# Curious about what to name your baby?
+![Chunky Baby](Images/chunkybaby)
 
 
 ## ETL_project_group_0
