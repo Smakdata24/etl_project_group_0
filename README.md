@@ -12,7 +12,7 @@ Now, have you ever wondered if there is reliable data to investigate such a ques
 
 ## Well, here is what we found...
 The Social Security Administration has been gathering and storing information on all qualifying applicants from **1880 to 2021**. The information collected includes the **name of the applicant**, **birth year**, **place of birth**, and **gender**.
-
+ your
 But it wasn't until 1998 that an Actuary by the name of **_*Michael W. Shackleford*_** analyzed the distribution of names of Social Security holders and pioneered the idea for [the website](https://www.ssa.gov/oact/babynames/background.html) where this data is stored and is ready to use.
 
 
@@ -36,3 +36,29 @@ But it wasn't until 1998 that an Actuary by the name of **_*Michael W. Shacklefo
 
 ## Voilà...
 
+### Alaska Data
+
+<img src="Images/alaskadb.PNG" width="400" height="275">
+
+
+### National Data
+
+<img src="Images/nationaldb.PNG" width="400" height="275">
+
+
+
+##### And if you're still curious...
+
+###### Alaska's top 5 girl names (2019)
+- Emma
+- Evelyn
+- Amelia
+- Ava
+- Olivia
+
+###### Alaska's top 5 boy names (2019)
+- Liam
+- Oliver
+- Henry
+- James
+- Noah
