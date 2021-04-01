@@ -1,40 +1,38 @@
-# Curious about what to name your baby?
+# ETL Project Group 0
 
-<img src="Images/chunkybaby.jpg" alt="chunky" width="300px" height="450px">
+## The Most Popular US Baby Names
+*by Shayet Makoshi and Nadia Aldrich*
 
-## ETL_project_group_0
+## Background
+Ever wonder what the most popular baby names were in 1880 or 1980? If your answer is yes, then we have something in common.
+Now, have you ever wondered if there is reliable data to investigate such a question? You're wondering: _"Yes, is there? Hmmm."_ :thinking:
 
-### Contributors
-1. Nadia Aldrich
-2. Shayet Makoshi
-
-Background:
-
-##Extract:
-Source: https://www.ssa.gov/oact/babynames/background.html
-
-###Data formatted using:
--Visual Sudio Code
--pgAdmin
--Jupyter Notebook
+<img src="Images/boynames.png" width="450" height="275"> <img src="Images/girlnames.png" width="450" height="275">
 
 
-##Transformation:
-- Converted raw data from a text file to a CSV file
-- Read CSV file into jupyter notebook and created dataframes for each file.
-- Dropped duplicates
-- Reanmed columns
+## Well, here is what we found...
+The Social Security Administration has been gathering and storing information on all qualifying applicants from **1880 to 2021**. The information collected includes the **name of the applicant**, **birth year**, **place of birth**, and **gender**.
+
+But it wasn't until 1998 that an Actuary by the name of **_*Michael W. Shackleford*_** analyzed the distribution of names of Social Security holders and pioneered the idea for [the website](https://www.ssa.gov/oact/babynames/background.html) where this data is stored and is ready to use.
 
 
-###Data Requirements:
+## The extraction challenge...
+- Original files were separate `.TXT` files--a set of files for **National Data** and **State Data**
+- We downloaded the files and overheated our machines because these files were HUGE.
 
-*a. Names need to be at least 2 characters long and State of Birth, Year of birth, and Gender have to be recorded*
-*b. Hyphens and spaces are removed (ex. "Julie-Anne, Julie Anne, and Julieanne will be counted as a single entry").*
-*c. Names spelled similarly are not combined (ex. "Caitlin, Caitlyn, Kaitlin, Kaitlyn, Kaitlynn, Katelyn, and Katelynn are considered separate names and each has its own rank.")*
-*d. For privacy reasons, names that appear fewer than 5 in a geographical area are not included in the data*
 
-##Load
+## The data make-over...
+- Converted all the `.TXT` files into one csv file for **National Data** and one for **Alaska Data**
+- Used `.drop_duplicates` since "Julie-Anne, Julie Anne and Julieanne" count as a single entry
+- Used `.rename` to update headers since the originals included keywords like **_*Name*_** and **_*Count*_**.
 
-<img src="Images/alaska.png" alt="alaska" width="300px" height="300px">
 
-<img src="Images/national.png" alt="national" width="300px" height="300px">
+
+
+## The loading of data...
+- Created a database using `pgAdmin` and created tables for **National Data** and **Alaska Data**
+- Created a connection from our Pandas library to our tables in `pgAdmin`
+
+
+## Voilà...
+
