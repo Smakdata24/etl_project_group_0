@@ -1,5 +1,5 @@
 # Curious about what to name your baby?
-![Chunky Baby](Images/chunkybaby)
+![Chunky Baby](Images/chunky%20baby)
 
 
 ## ETL_project_group_0
