@@ -22,7 +22,7 @@ But it wasn't until 1998 that an Actuary by the name of **_*Michael W. Shacklefo
 
 
 ## The data make-over...
-- Converted all the `.TXT` files into one csv file for **National Data** and one for **Alaska Data**
+- Converted all the `.TXT` files into one `csv` file for **National Data** and one for **Alaska Data**
 - Used `.drop_duplicates` since "Julie-Anne, Julie Anne and Julieanne" count as a single entry
 - Used `.rename` to update headers since the originals included keywords like **_*Name*_** and **_*Count*_**.
 
