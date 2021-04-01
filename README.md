@@ -1,5 +1,5 @@
 # Most Popular Baby Names
-![](images/chunky Baby)
+![](Images/chunky Baby)
 
 
 ## ETL_project_group_0
